@@ -307,7 +307,8 @@ header {
 	font-size: 0;
 }
 
-.social-icon-link:hover {
+.social-icon-link:hover,
+.social-icon-link:focus {
 	background: var(--accent-color);
 	--color1: var(--white-color);
 }
@@ -325,8 +326,48 @@ header {
 	height: 44px;
 }
 
+.clients {
+	padding-bottom: 94px;
+}
+
+.clients-list {
+	border: 1px solid #afb1b8;
+	box-sizing: border-box;
+	border-radius: 4px;
+	font-size: 0;
+	width: 170px;
+	height: 90px;
+
+	position: relative;
+
+	text-align: center;
+}
+
+.clients-list:not(:last-child) {
+	margin-right: 30px;
+}
+
+.clients-list:hover {
+	border: 1px solid var(--accent-color);
+	--color1: var(--accent-color);
+}
+
+.clients-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: inline-block;
+	width: 35%;
+}
+
+.big {
+	width: 55%;
+}
+
 .footer {
 	background: #2f303a;
+	padding-top: 0;
 }
 
 .footer-address {

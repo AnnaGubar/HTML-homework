@@ -91,12 +91,12 @@ header {
 	align-items: center;
 }
 
-.menu {
-	margin-right: 250px;
-}
-
 .menu li:not(:last-child) {
 	margin-right: 50px;
+}
+
+.contacts-list {
+	margin-left: 15rem;
 }
 
 .contacts-list li:not(:last-child) {

@@ -204,6 +204,8 @@ header {
 	margin-bottom: 10px;
 	font-weight: 700;
 	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 1.14;
 }
 
 .title-description {
@@ -389,6 +391,20 @@ header {
 
 .footer-contacts li:not(:last-child) {
 	margin-bottom: 9px;
+}
+
+.footer-container-address {
+	margin-right: 70px;
+}
+
+.white {
+	color: var(--white-color);
+	margin-bottom: 20px;
+}
+
+.footer-icons {
+	background: rgba(255, 255, 255, 0.1);
+	--color1: var(--white-color);
 }
 
 /* ----------- PORTFOLIO ----------- */

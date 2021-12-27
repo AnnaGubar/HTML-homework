@@ -59,7 +59,7 @@
 					<br />
 					для вашего бизнеса
 				</h1>
-				<button type="button" class="btn hero-btn">Заказать услугу</button>
+				<button type="button" class="btn hero-btn" data-modal-open>Заказать услугу</button>
 			</section>
 
 			<section class="section">
@@ -110,9 +110,18 @@
 				<div class="container occupation">
 					<h2 class="main-title">Чем мы занимаемся</h2>
 					<ul class="occupation-list flex">
-						<li class="occupation-item"><img src="./images/web-studio/box1.jpg" alt="десктоп" width="370" /></li>
-						<li class="occupation-item"><img src="./images/web-studio/box2.jpg" alt="ноутбук" width="370" /></li>
-						<li class="occupation-item"><img src="./images/web-studio/box3.jpg" alt="планшет" width="370" /></li>
+						<li class="occupation-item">
+							<img src="./images/web-studio/box1.jpg" alt="десктоп" width="370" />
+							<h3 class="title positioning">Десктопные приложения</h3>
+						</li>
+						<li class="occupation-item">
+							<img src="./images/web-studio/box2.jpg" alt="ноутбук" width="370" />
+							<h3 class="title positioning">Мобильные приложения</h3>
+						</li>
+						<li class="occupation-item">
+							<img src="./images/web-studio/box3.jpg" alt="планшет" width="370" />
+							<h3 class="title positioning">Дизайнерские решения</h3>
+						</li>
 					</ul>
 				</div>
 			</section>
@@ -367,5 +376,18 @@
 				</div>
 			</div>
 		</footer>
+
+		<div class="backdrop is-hidden" data-modal>
+			<div class="modal">
+				<button class="btn-close" data-modal-close>
+					<svg class="modal-btn">
+						<use href="./images/sprite.svg#icon-close"></use>
+					</svg>
+				</button>
+				<div></div>
+			</div>
+		</div>
+
+		<script src="./js/modal.js"></script>
 	</body>
 </html>
